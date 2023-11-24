@@ -18,7 +18,7 @@
     font-family: Roboto, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
-    background-color: white;
+    background-color: #dedede;
 }
 html {
     scroll-behavior: smooth;
@@ -100,7 +100,7 @@ html {
     cursor: pointer;
 }
 .active {
-    background-color: white;
+    background-color: #dedede;
     box-shadow: 2px 0px 2px rgb(96, 94, 94);
 }
 .active ul li a {
@@ -217,7 +217,7 @@ section#promo-card {
     justify-content: center;
     align-items: center;
 }
-.promo-container::-webkit-scrollbar {
+/* .promo-container::-webkit-scrollbar {
     height: 12px;
 }
 .promo-container::-webkit-scrollbar-track {
@@ -226,7 +226,7 @@ section#promo-card {
 .promo-container::-webkit-scrollbar-thumb {
     background-color: #e1460bff;
     border-radius: 4rem;
-}
+} */
 .promo-container {
     padding: 64px 2px 16px;
     max-width: 1050px;
@@ -255,11 +255,15 @@ section#promo-card {
     .promo-container {
         max-width: 680px;
         margin: 0;
+        
     }
 }
 @media screen and (max-width: 850px) {
     .promo-container {
         max-width: 350px;
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
     }
 }
 .promo-card:hover > * , .promo-card:hover svg path {
@@ -310,6 +314,7 @@ section#promo-card {
     align-items: center;
     gap: 48px;
     padding: 16px 32px;
+    flex-direction: row-reverse;
 }
 .about-banner {
     position: relative;
