@@ -9,6 +9,7 @@
 
     <!-- external css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/login.css.css">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/images/home kitchen-01.png" type="image/svg+xml">
@@ -36,21 +37,29 @@
                 </ul>
             </nav>
         </header>
-        <div class="main-container">
-            <div class="image-container">
-                <i class="fa-solid fa-user " style="color: #e1460b; font-size: 30vw; "></i>
-            </div>
-            <div class="login-container">
-                <!-- Your login page content goes here -->
-                <form>
-                    <label for="username">Username:</label>
-                    <input type="text" id="username" name="username" required>
-        
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
-        
-                    <button type="submit">Login</button>
+            <div class="wrapper">
+                <header>Login Form</header>
+                <form action="#">
+                    <div class="field email">
+                        <div class="input-area">
+                            <input type="text" placeholder="Email Address">
+                            <i class="icon fas fa-envelope"></i>
+                            <i class="error error-icon fas fa-exclamation-circle"></i>
+                        </div>
+                        <div class="error error-txt">Email can't be blank</div>
+                    </div>
+                    <div class="field password">
+                        <div class="input-area">
+                            <input type="password" placeholder="Password">
+                            <i class="icon fas fa-lock"></i>
+                            <i class="error error-icon fas fa-exclamation-circle"></i>
+                        </div>
+                        <div class="error error-txt">Password can't be blank</div>
+                    </div>
+                    <div class="pass-txt"><a href="#">Forgot password?</a></div>
+                    <input type="submit" value="Login">
                 </form>
+                <div class="sign-txt">Not yet member? <a href="#">Signup now</a></div>
             </div>
     </section>
     <!-- footer -->
