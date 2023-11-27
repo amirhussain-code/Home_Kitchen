@@ -32,7 +32,6 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html#menu">Menu</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#">Order</a></li>
                     <div class="closeMenu"><i class="fa-solid fa-xmark"></i></div>
                 </ul>
             </nav>
@@ -59,9 +58,8 @@
                             <input type="date" placeholder="Enter Date" name="date" required>
                         </div>
                         <div class="input-box">
-                            <label for="no-of-persons">Number Of Persons</label>
-                            <input type="number" placeholder="Number Of Persons" min="1" max="10" name="no-of-persons"
-                                required>
+                            <label for="no-of-persons">C.N.I.C</label>
+                            <input type="text"  data-inputmask="'mask': '99999-9999999-9'"  placeholder="XXXXX-XXXXXXX-X"  name="cnic" required >
                         </div>
                         <div class="input-box">
                             <label for="time">Timing</label>
@@ -69,11 +67,43 @@
                         </div>
                     </div>
                     <div class="button-container">
-                        <button type="submit" value="Reserve Seats" name="Reserve Seats">Reserve Seats</button>
+                        <button type="submit" value="Reserve Seats" name="Reserve Seats">Order Now</button>
                     </div>
                 </form>
             </div>
         </div>
     </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4 class="footer-title">company</h4>
+                <ul>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">delivery</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">follow us</h4>
+                <div class="social-links">
+                    <a href="#" title="FaceBook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <h34>Copyright ©️ 2023 | Home Kitchen </h4>
+        </div>
+    </footer>
 </body>
 </html>

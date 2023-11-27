@@ -762,10 +762,11 @@ h2 span {
     line-height: 1.7rem;
 }
 .table-container {
+    height: 70vh;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 60px auto;
     border-radius: 8px;
-    background-image: linear-gradient(to right, #1dc794, #5f49c2);
+    background-color: orange;
     padding: 1em;
     margin-bottom: 2em;
     box-shadow: 1px 1px 4px black;
@@ -775,13 +776,14 @@ h2 span {
     font-size: 24px;
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: bold;
-    margin: 16px 8px;
+    margin: 20px 8px;
     border-bottom: 1px solid red;
 }
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .input-box {
     width: 48%;
