@@ -834,6 +834,7 @@ h2 span {
     }
     .table-container {
         margin: 2em 1em;
+        height: 100vh;
     }
 }
 
