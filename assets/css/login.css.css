@@ -6,22 +6,22 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
+/* body {
     width: 100%;
     height: 100vh;
     align-items: center;
     justify-content: center;
     background: #00e6ee;
-}
+}  */
 
-::selection {
+ ::selection {
     color: #fff;
     background: #53f0e3;
 }
 
 .wrapper {
-  top: 20%;
-    margin: auto;
+    position: absolute;
+    margin: 10rem 40rem;
     width: 380px;
     padding: 40px 30px 50px 30px;
     background: #fff;
@@ -33,6 +33,7 @@ body {
 .wrapper header {
     font-size: 35px;
     font-weight: 600;
+    color: black;
 }
 
 .wrapper form {
@@ -170,4 +171,4 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
     background: #2c52ed;
-}
+} 

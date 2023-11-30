@@ -32,7 +32,3 @@ function close()
     mainMenu.style.top = "-100vh";
 }
 
-// Alert message for Menu Items
-function show_alert(){
-    alert("No Feature Added!!!");
-}

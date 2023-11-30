@@ -8,7 +8,7 @@
 
     <!-- external css -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/reservation.css">
+  
 
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/images/home kitchen-01.png" type="image/svg+xml">
@@ -18,7 +18,7 @@
 
     <!-- javascript code -->
     <script src="assets/js/script.js" defer></script>
-    <script src="assets/js/reservation.js" defer></script>
+  
 </head>
 
 <body>
@@ -38,7 +38,7 @@
         </header>
         <div class="container">
             <div class="table-container">
-                <form name="reservation-form">
+                <form name="reservation-form" action="./insert.php" method="post">
                     <h2>Registration</h2>
                     <div class="content">
                         <div class="input-box">
@@ -51,7 +51,7 @@
                         </div>
                         <div class="input-box">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" placeholder="Enter phone number" name="phone" pattern="[0-9]{10}" required>
+                            <input type="text" placeholder="Enter phone number" name="phone"  required>
                         </div>
                         <div class="input-box">
                             <label for="date">Date</label>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="button-container">
-                        <button type="submit" value="Reserve Seats" name="Reserve Seats">Order Now</button>
+                        <button type="submit" value="ordernow" name="ordernow">Order Now</button>
                     </div>
                 </form>
             </div>
